@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@types/node": "^20.2.5",
+    "gh-pages": "^5.0.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
