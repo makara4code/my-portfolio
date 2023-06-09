@@ -1,3 +1,4 @@
 <template>
-  <h1>This is portfolio updated version 1.0.2</h1>
+  <h1>This is portfolio</h1>
+  <h3>version 1.2.0</h3>
 </template>
